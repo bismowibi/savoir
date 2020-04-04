@@ -201,7 +201,7 @@
 }
 
 
-
+@media only screen and (min-width:990px) {
 .line{
     left:360px;
 }
@@ -210,12 +210,13 @@
     right: 370px;
     top: 10px;
 }
-
+}
 #contact p{
     margin-top: 10px;
     opacity: 0;
 
 }
+
 
 
 
@@ -275,9 +276,9 @@
 
     .card-2 h2 {
         left: 0%;
-        top: -830%;
+        top: -1000%;
 }
-    }
+    
 
     /* Card 3 Mobile */
     .card-3 h2 {
@@ -356,7 +357,13 @@
         position: relative;
         margin-bottom: 13%;
     }
+
+    .mail, .line {
+        left: 0 % !important ;
+    }
+
 }
+
 
 }
 
