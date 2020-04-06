@@ -1,0 +1,309 @@
+/* Header - Logo */
+#site-header {
+    text-align: center;
+    padding-top: 2%;
+    font-family: "BeautyDream";
+    font-size: 4rem;
+}
+
+#site-header h5 {
+    font-size: 2rem;
+}
+
+
+
+/* Card Background */
+.card-1 {
+    background-color: #98D0E7;
+}
+
+.card-2 {
+    background-color: #D54C63;
+}
+
+.card-3 {
+    background-color: #FECF70;
+}
+
+.card-4 {
+    background-color: #F7E6D8;
+}
+
+/* About Us */
+#about-us {
+    background-color: #FFC7C6;
+    height: 360px;
+    /* text-align: center; */
+    padding: 3% 15% 3%;
+}
+
+.col-about h2 {
+    font-size: 50px;
+}
+
+
+/* Collection */
+
+#collection {
+    padding-top: 12%;
+    font-family: "GTWalsheimProRegular";
+}
+
+.scrolling-wrapper-flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+
+
+}
+
+.scrolling-wrapper-flexbox::-webkit-scrollbar {
+    display: none;
+
+}
+
+
+.card {
+    flex: 0 0 auto;
+    /* height: 290px;
+    width: 390px; */
+    margin-left: 40px;
+    margin-right: 40px;
+    border: none !important;
+
+}
+
+#collection h1 {
+    font-size: 50px;
+    margin-top: 110px;
+
+}
+
+.arrow {
+    margin-left: 45px;
+    margin-top: 30px;
+
+}
+
+.arrow h4 {
+    left: 24%;
+    position: absolute;
+    top: 48%;
+}
+
+#collection a {
+    color: black;
+}
+
+#collection a:hover {
+    color: #d24967;
+}
+
+
+
+
+
+
+/* Mobile Version */
+@media only screen and (max-width:990px) {
+    #site-header {
+        display: none;
+    }
+}
+
+/* Navigation Bar */
+.navbar-nav>li {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "GTWalsheimProRegular";
+    font-weight: bold;
+}
+
+.navbar-brand {
+    font-family: "BeautyDream";
+    font-size: 2.5rem !important;
+}
+
+/* Home */
+#home {
+    padding: 0% 15% 7%;
+}
+
+#carouselExampleControls h2 {
+    font-family: "GTWalsheimProRegular";
+    font-size: 50px;
+    position: relative;
+}
+
+/* Card 1  */
+.img-card-1 {
+    position: relative;
+    left: 35%;
+    height: 470px;
+}
+
+.card-1 h2 {
+    left: 15%;
+    top: 80%;
+    color: white;
+}
+
+/* Card 2 */
+.img-card-2 {
+    position: relative;
+    left: 25%;
+}
+
+.card-2 h2 {
+    color: #ffff;
+    top: 40%;
+    left: 10%;
+}
+
+/* Card 3 */
+.card-3 h2 {
+    color: #9C7C62;
+    top: 40%;
+    left: 30%;
+}
+
+/* Card-4 */
+.card-4 h2 {
+    left: 30%;
+    top: 20%;
+    color: #D54C63;
+}
+
+@media only screen and (max-width:990px) {
+    #home {
+        padding: 0 0 0 0 !important;
+    }
+
+    /* Heading 2 Mobile */
+    #carouselExampleControls h2 {
+        font-size: 30px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        left: 27%;
+    }
+
+    /* Card 1 Mobile */
+    .img-card-1 {
+        height: 448px;
+        position: relative;
+        left: 4%;
+
+    }
+
+    /* Card 2 Mobile */
+    .img-card-2 {
+        position: relative;
+        top: 30%;
+        left: 10%;
+        width: 80%;
+    }
+
+    .card-2 h2 {
+        top: -490%
+    }
+
+    /* Card 3 Mobile */
+    .card-3 h2 {
+        top: 70% !important;
+    }
+
+    .img-card-3 {
+        width: 80%;
+        position: relative;
+        left: 10%;
+        top: 7%;
+
+    }
+
+    /* Card 4 Mobile */
+    .img-card-4 {
+        width: 81.5%;
+        left: 10%;
+        position: relative;
+        top: 5%;
+    }
+
+    .card-3 h2 {
+
+        top: 45%;
+    }
+
+
+    /* About Us Mobile Ver */
+    #about-us {
+        margin-top: 20%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    #about-us h2 {
+        font-size: 30px;
+    }
+
+    #about-us p {
+        font-size: 13px;
+    }
+
+    /* Collection  Mobile Ver*/
+    #collection {
+        padding-top: 20%;
+    }
+
+    #collection h1 {
+        font-size: 30px;
+        margin-top: 0;
+
+    }
+
+    .arrow h4 {
+        font-size: 15px;
+        ;
+        left: 30%;
+
+    }
+
+    .scrolling-row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .img-arrow {
+        left: 5%;
+        position: relative;
+        margin-bottom: 13%;
+    }
+}
+
+}
+
+/* Font  */
+
+@font-face {
+    font-family: 'BeautyDream';
+    src: url('/Font/BeautyDream.eot') format('embedded-opentype'),
+        url('/Font/BeautyDream.woff') format('woff'),
+        url('/Font/BeautyDream.ttf') format('ttf'),
+        url('/Font/BeautyDream.svg') format('svg'), ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+*@font-face* {
+
+    font-family: 'COCOGOSE';
+    src: url('F');
+    src: url('font/COCOGOOSE.eot?#iefix') format('embedded-opentype'),
+        url('font/COCOGOOSE.woff2') format('woff2'),
+        url('font/COCOGOOSE.woff') format('woff'),
+        url('font/COCOGOOSE.ttf') format('truetype'),
+        url('font/COCOGOOSE.svg#ciclefina') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

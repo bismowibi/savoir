@@ -10,17 +10,18 @@
     font-size: 30px;
 }
 
-#title{
+#title {
     padding-bottom: 2%;
 }
+
 /* Navigation Bar */
 .navbar-nav>li {
     padding-left: 20px;
     padding-right: 20px;
     font-family: "GT Walsheim Pro Regular";
     font-weight: bold;
-    font-size:25px;
-    margin-top:20px;
+    font-size: 25px;
+    margin-top: 20px;
 }
 
 .navbar-brand {
@@ -95,9 +96,8 @@
     color: #D54C63;
 }
 
-.img-card-4{
-   
-}
+.img-card-4 {}
+
 /* About Us */
 #about-us {
     background-color: #FEF6F8;
@@ -107,10 +107,10 @@
     font-family: "GTWalsheimProRegular";
 }
 
-#about-us p{
+#about-us p {
     font-size: 20px;
     line-height: 27px;
-    margin-top:30px;
+    margin-top: 30px;
 }
 
 #about-us h2 {
@@ -125,7 +125,7 @@
 
 #collection {
     padding-top: 12%;
-    padding-bottom:12%;
+    padding-bottom: 12%;
     font-family: "Futura";
     font-weight: 500;
     font-style: italic;
@@ -135,7 +135,7 @@
     display: flex;
     white-space: nowrap;
     overflow-x: scroll;
-    overflow-y:hidden;
+    overflow-y: hidden;
 
 
 
@@ -162,7 +162,8 @@
     margin-top: 110px;
 
 }
-#collection span{
+
+#collection span {
     font-style: normal !important;
 }
 
@@ -192,28 +193,28 @@
 
 /* Contact */
 
-#contact{
+#contact {
     padding: 3% 0% 0% 0%;
-    background-color: #FEF6F8 ;
+    background-color: #FEF6F8;
     font-family: "Futura";
 }
 
-#contact h2{
+#contact h2 {
     font-size: 50px;
     font-style: italic;
     padding-top: 1%;
 }
 
-.contact-icon{
-    padding-top:2%;
+.contact-icon {
+    padding-top: 2%;
 }
 
-.icon-img{
-    margin-left:20px;
-    margin-right:20px;
+.icon-img {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-.shipping h6{
+.shipping h6 {
     font-size: 18px;
     margin-top: 5px;
     line-height: 45px;
@@ -230,18 +231,18 @@
 /* Only Show on Web */
 
 @media only screen and (min-width:990px) {
-.line{
-    left:360px;
-}
+    .line {
+        left: 360px;
+    }
 
-.mail{
-    right: 370px;
-    top: 10px;
-}
+    .mail {
+        right: 370px;
+        top: 10px;
+    }
 
-#contact .contact-mobile{
-    display: none;
-}
+    #contact .contact-mobile {
+        display: none;
+    }
 
 }
 
@@ -264,26 +265,31 @@
     #home {
         padding: 0 0 0 0 !important;
     }
-    .navbar-nav>li{
-        font-size:15px;
+
+    .navbar-nav>li {
+        font-size: 15px;
     }
+
     /* Heading 2 Mobile */
     #carouselExampleControls h2 {
         font-size: 30px;
         text-align: center;
         display: flex;
         flex-direction: column;
-        
+
     }
 
-    #carouselExampleControls br{
+    #carouselExampleControls br {
         display: none;
     }
 
-    .card-1, .card-2, .card-3, .card-4{
-       height: 500px;
+    .card-1,
+    .card-2,
+    .card-3,
+    .card-4 {
+        height: 500px;
     }
-    
+
 
     /* Card 1 Mobile */
     .img-card-1 {
@@ -305,14 +311,14 @@
 
     .card-2 h2 {
         left: 0%;
-        top: -850%;
-}
-    
+        top: -690%;
+    }
+
 
     /* Card 3 Mobile */
     .card-3 h2 {
-        left:0%;
-        top:130%;  
+        left: 0%;
+        top: 130%;git 
     }
 
     .img-card-3 {
@@ -333,8 +339,8 @@
     }
 
     .card-4 h2 {
-        left:0%;
-        top:130%;  
+        left: 0%;
+        top: 130%;
     }
 
 
@@ -345,7 +351,7 @@
         padding-right: 0%;
     }
 
-    #about-us br{
+    #about-us br {
         display: none;
     }
 
@@ -353,15 +359,15 @@
         font-size: 35px;
         /* font-weight: bold; */
     }
-    
+
 
     #about-us p {
         font-size: 15px;
         line-height: 24px;
     }
-    
-    #about-us .row{
-        padding-top:40px;
+
+    #about-us .row {
+        padding-top: 40px;
     }
 
     /* Collection  Mobile Ver*/
@@ -373,7 +379,7 @@
     #collection h1 {
         font-size: 35px;
         margin-top: 10px;
-        
+
     }
 
 
@@ -396,16 +402,18 @@
         position: relative;
         margin-bottom: 13%;
     }
-    #contact h2{
-        font-size:35px;
-        padding-top:5%;
+
+    #contact h2 {
+        font-size: 35px;
+        padding-top: 5%;
         /* font-weight: bold; */
     }
 
-    .con{
-        padding-top:2%;
+    .con {
+        padding-top: 2%;
     }
-    .icon-img{
+
+    .icon-img {
         width: 12%;
         height: auto;
         padding-top: 3%;
@@ -413,23 +421,23 @@
         margin-right: 15px;
     }
 
-    .shipping h6{
+    .shipping h6 {
         font-size: 1rem;
         line-height: 32px;
         padding-top: 3%;
         padding-bottom: 3%;
     }
 
-    .contact-mobile{
+    .contact-mobile {
         padding-top: 10%;
     }
-   
 
 
-   
 
 
-   
+
+
+
 }
 
 
@@ -439,35 +447,45 @@
 
 
 
-@font-face{
+@font-face {
 
     font-family: 'GTWalsheimProRegular';
     src: url('Font/GTWalsheimPro-Regular.eot');
     src: url('Font/GTWalsheimPro-Regular.eot?#iefix') format('embedded-opentype'),
-         url('Font/GTWalsheimPro-Regular.woff2') format('woff2'),
-         url('Font/GTWalsheimPro-Regular.woff') format('woff'),
-         url('Font/GTWalsheimPro-Regular.svg#GTWalsheimPro-Regular') format('svg');
+        url('Font/GTWalsheimPro-Regular.woff2') format('woff2'),
+        url('Font/GTWalsheimPro-Regular.woff') format('woff'),
+        url('Font/GTWalsheimPro-Regular.svg#GTWalsheimPro-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
-    
-    }
 
-    
+}
+
+
 @font-face {
 
     font-family: 'BeautyDream';
     src: url('Font/Beauty-Dream.eot');
     src: url('Font/Beauty-Dream.eot?#iefix') format('embedded-opentype'),
-         url('Font/Beauty-Dream.woff2') format('woff2'),
-         url('Font/Beauty-Dream.woff') format('woff'),
-         url('Font/Beauty-Dream.svg#Beauty-Dream') format('svg');
+        url('Font/Beauty-Dream.woff2') format('woff2'),
+        url('Font/Beauty-Dream.woff') format('woff'),
+        url('Font/Beauty-Dream.svg#Beauty-Dream') format('svg');
     font-weight: normal;
     font-style: normal;
-    
-    }
-    @import url(https://db.onlinewebfonts.com/c/4417812509ea84242dcf790e829ca350?family=GT+Walsheim+Pro+Regular);
 
-    @font-face {font-family: "GT Walsheim Pro Regular"; src: url("https://db.onlinewebfonts.com/t/4417812509ea84242dcf790e829ca350.eot"); src: url("https://db.onlinewebfonts.com/t/4417812509ea84242dcf790e829ca350.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/4417812509ea84242dcf790e829ca350.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/4417812509ea84242dcf790e829ca350.woff") format("woff"), url("https://db.onlinewebfonts.com/t/4417812509ea84242dcf790e829ca350.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/4417812509ea84242dcf790e829ca350.svg#GT Walsheim Pro Regular") format("svg"); }
+}
 
-    @import url(//db.onlinewebfonts.com/c/e8c6a63541de0a4211a9358cbe74690f?family=Futura);
-    @font-face {font-family: "Futura"; src: url("https://db.onlinewebfonts.com/t/e8c6a63541de0a4211a9358cbe74690f.eot"); src: url("https://db.onlinewebfonts.com/t/e8c6a63541de0a4211a9358cbe74690f.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/e8c6a63541de0a4211a9358cbe74690f.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/e8c6a63541de0a4211a9358cbe74690f.woff") format("woff"), url("https://db.onlinewebfonts.com/t/e8c6a63541de0a4211a9358cbe74690f.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/e8c6a63541de0a4211a9358cbe74690f.svg#Futura") format("svg"); }
+@import url(https://db.onlinewebfonts.com/c/4417812509ea84242dcf790e829ca350?family=GT+Walsheim+Pro+Regular);
+
+@font-face {
+    font-family: "GT Walsheim Pro Regular";
+    src: url("https://db.onlinewebfonts.com/t/4417812509ea84242dcf790e829ca350.eot");
+    src: url("https://db.onlinewebfonts.com/t/4417812509ea84242dcf790e829ca350.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/4417812509ea84242dcf790e829ca350.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/4417812509ea84242dcf790e829ca350.woff") format("woff"), url("https://db.onlinewebfonts.com/t/4417812509ea84242dcf790e829ca350.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/4417812509ea84242dcf790e829ca350.svg#GT Walsheim Pro Regular") format("svg");
+}
+
+@import url(//db.onlinewebfonts.com/c/e8c6a63541de0a4211a9358cbe74690f?family=Futura);
+
+@font-face {
+    font-family: "Futura";
+    src: url("https://db.onlinewebfonts.com/t/e8c6a63541de0a4211a9358cbe74690f.eot");
+    src: url("https://db.onlinewebfonts.com/t/e8c6a63541de0a4211a9358cbe74690f.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/e8c6a63541de0a4211a9358cbe74690f.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/e8c6a63541de0a4211a9358cbe74690f.woff") format("woff"), url("https://db.onlinewebfonts.com/t/e8c6a63541de0a4211a9358cbe74690f.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/e8c6a63541de0a4211a9358cbe74690f.svg#Futura") format("svg");
+}
