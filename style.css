@@ -396,29 +396,24 @@
         padding-top:2%;
     }
     .icon-img{
-      width: 10%;
-      height: auto;
-      padding-top:1%;  
-      margin-left:15px;
-      margin-right:15px; 
+        width: 12%;
+        height: auto;
+        padding-top: 3%;
+        margin-left: 15px;
+        margin-right: 15px;
     }
 
     .shipping h6{
-        font-size:12px;
-        line-height: 20px;
-        padding-top: 1%;
+        font-size: 1rem;
+        line-height: 32px;
+        padding-top: 3%;
+        padding-bottom: 3%;
     }
 
     .contact-mobile{
         padding-top: 10%;
     }
-    /* .mail-img, .line-img, .ig-img {
-        width: auto;
-        height:60%;
-        margin-left:4%;
-        margin-right:4%;
-        
-    } */
+   
 
 
    
@@ -463,3 +458,6 @@
     @import url(https://db.onlinewebfonts.com/c/4417812509ea84242dcf790e829ca350?family=GT+Walsheim+Pro+Regular);
 
     @font-face {font-family: "GT Walsheim Pro Regular"; src: url("https://db.onlinewebfonts.com/t/4417812509ea84242dcf790e829ca350.eot"); src: url("https://db.onlinewebfonts.com/t/4417812509ea84242dcf790e829ca350.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/4417812509ea84242dcf790e829ca350.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/4417812509ea84242dcf790e829ca350.woff") format("woff"), url("https://db.onlinewebfonts.com/t/4417812509ea84242dcf790e829ca350.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/4417812509ea84242dcf790e829ca350.svg#GT Walsheim Pro Regular") format("svg"); }
+
+    @import url(//db.onlinewebfonts.com/c/e8c6a63541de0a4211a9358cbe74690f?family=Futura);
+    @font-face {font-family: "Futura"; src: url("https://db.onlinewebfonts.com/t/e8c6a63541de0a4211a9358cbe74690f.eot"); src: url("https://db.onlinewebfonts.com/t/e8c6a63541de0a4211a9358cbe74690f.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/e8c6a63541de0a4211a9358cbe74690f.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/e8c6a63541de0a4211a9358cbe74690f.woff") format("woff"), url("https://db.onlinewebfonts.com/t/e8c6a63541de0a4211a9358cbe74690f.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/e8c6a63541de0a4211a9358cbe74690f.svg#Futura") format("svg"); }
