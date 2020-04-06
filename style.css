@@ -162,6 +162,9 @@
     margin-top: 110px;
 
 }
+#collection span{
+    font-style: normal !important;
+}
 
 .arrow {
     margin-left: 45px;
@@ -202,7 +205,7 @@
 }
 
 .contact-icon{
-    padding-top:1%;
+    padding-top:2%;
 }
 
 .icon-img{
@@ -347,8 +350,10 @@
     }
 
     #about-us h2 {
-        font-size: 30px;
+        font-size: 40px;
+        font-weight: bold;
     }
+    
 
     #about-us p {
         font-size: 15px;
@@ -365,10 +370,12 @@
     }
 
     #collection h1 {
-        font-size: 30px;
+        font-size: 40px;
         margin-top: 0;
-
+        font-weight: bold;
     }
+
+
 
     .arrow h4 {
         font-size: 15px;
@@ -388,8 +395,9 @@
         margin-bottom: 13%;
     }
     #contact h2{
-        font-size:30px;
+        font-size:40px;
         padding-top:5%;
+        font-weight: bold;
     }
 
     .con{
