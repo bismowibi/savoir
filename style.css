@@ -173,6 +173,8 @@
     left: 24%;
     position: absolute;
     top: 48%;
+    font-style: normal;
+    font-weight: bold;
 }
 
 #collection a {
@@ -183,10 +185,12 @@
     color: #d24967;
 }
 
+
+
 /* Contact */
 
 #contact{
-    padding: 3% 0%;
+    padding: 3% 0% 0% 0%;
     background-color: #FEF6F8 ;
     font-family: "Futura";
 }
@@ -194,12 +198,33 @@
 #contact h2{
     font-size: 50px;
     font-style: italic;
+    padding-top: 1%;
 }
 
 .contact-icon{
-    padding-top:40px;
+    padding-top:1%;
 }
 
+.icon-img{
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.shipping h6{
+    font-size: 18px;
+    margin-top: 5px;
+    line-height: 45px;
+    padding-top: 1%;
+}
+
+
+/* .contact-icon a {
+    position: absolute;
+    z-index: 9999;
+ } */
+
+
+/* Only Show on Web */
 
 @media only screen and (min-width:990px) {
 .line{
@@ -210,12 +235,13 @@
     right: 370px;
     top: 10px;
 }
+
+#contact .contact-mobile{
+    display: none;
 }
-#contact p{
-    margin-top: 10px;
-    opacity: 0;
 
 }
+
 
 
 
@@ -290,7 +316,7 @@
         width: auto;
         height: 70%;
         position: relative;
-        left: 10%;
+        left: 18%;
         top: 9%;
 
     }
@@ -328,6 +354,10 @@
         font-size: 15px;
         line-height: 24px;
     }
+    
+    #about-us .row{
+        padding-top:40px;
+    }
 
     /* Collection  Mobile Ver*/
     #collection {
@@ -357,11 +387,44 @@
         position: relative;
         margin-bottom: 13%;
     }
-
-    .mail, .line {
-        left: 0 % !important ;
+    #contact h2{
+        font-size:30px;
+        padding-top:5%;
     }
 
+    .con{
+        padding-top:2%;
+    }
+    .icon-img{
+      width: 10%;
+      height: auto;
+      padding-top:1%;  
+      margin-left:15px;
+      margin-right:15px; 
+    }
+
+    .shipping h6{
+        font-size:12px;
+        line-height: 20px;
+        padding-top: 1%;
+    }
+
+    .contact-mobile{
+        padding-top: 10%;
+    }
+    /* .mail-img, .line-img, .ig-img {
+        width: auto;
+        height:60%;
+        margin-left:4%;
+        margin-right:4%;
+        
+    } */
+
+
+   
+
+
+   
 }
 
 
