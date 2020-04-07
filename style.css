@@ -244,6 +244,10 @@
         display: none;
     }
 
+    .h3-mobile{
+        display:none !important;
+    }
+
 }
 
 
@@ -261,7 +265,7 @@
 
 
 
-@media only screen and (max-width:990px) {
+@media only screen and (max-device-width:600px) and (max-device-height:990px) {
     #home {
         padding: 0 0 0 0 !important;
     }
@@ -307,13 +311,25 @@
         top: 22%;
         left: 10%;
         width: 80%;
+    
     }
 
     .card-2 h2 {
         left: 0%;
         top: -690%;
+        display:none !important;
     }
-
+    .h3-mobile{
+        font-size: 30px;
+    font-family: "Futura";
+    color: white;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    left: 18%;
+    display: flex;
+    top: 10%;
+    }
 
     /* Card 3 Mobile */
     .card-3 h2 {
